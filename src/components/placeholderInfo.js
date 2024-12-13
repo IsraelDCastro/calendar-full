@@ -2,7 +2,8 @@ const tours = [
   {
     id: 1,
     name: "Saona Island Tour",
-    description: "Sail on a catamaran or speedboat to a stunning tropical island with turquoise waters and white sandy beaches.",
+    description:
+      "Embark on an unforgettable journey to Saona Island, a tropical paradise known for its crystal-clear turquoise waters, pristine white sandy beaches, and swaying palm trees. Sail aboard a luxurious catamaran or speedboat, enjoying the gentle sea breeze and vibrant Caribbean views. Upon arrival, relax under the sun, swim in the warm waters, or explore the island's lush surroundings. Indulge in a delicious Dominican-style buffet lunch featuring fresh seafood, grilled meats, and tropical fruits, all while surrounded by breathtaking natural beauty. Perfect for those seeking relaxation, adventure, and a true taste of paradise.",
     price: {
       adult: 75,
       child: 45
@@ -31,7 +32,8 @@ const tours = [
   {
     id: 2,
     name: "Hoyo Azul at Scape Park",
-    description: "Discover a natural turquoise sinkhole surrounded by lush greenery and explore the adventures of Scape Park.",
+    description:
+      "Immerse yourself in the wonders of Scape Park with a visit to Hoyo Azul, a stunning natural sinkhole with vibrant turquoise waters surrounded by lush greenery. Begin your adventure with a scenic trek through the park's tropical trails, where you'll discover diverse flora and fauna. At Hoyo Azul, take a refreshing dip in the cool, crystal-clear waters or simply relax and marvel at this natural wonder. The tour also includes time to explore additional attractions and activities within Scape Park, ensuring a day filled with excitement, relaxation, and connection with nature.",
     price: {
       adult: 89,
       child: 60
@@ -39,7 +41,8 @@ const tours = [
     tags: ["adventure", "nature", "cenote"],
     categories: ["park", "natural_wonder"],
     time: "morning",
-    image: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1935&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1533105045747-b9d71a0955f9?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tour_itinerary: [
       "Pickup from hotel (8:00 AM)",
       "Entrance to Scape Park (9:00 AM)",
@@ -59,7 +62,8 @@ const tours = [
   {
     id: 3,
     name: "Buggies Off-Road Adventure",
-    description: "Drive a buggy through rugged trails, visit a cenote, and explore Macao Beach.",
+    description:
+      "Get ready for an adrenaline-packed experience as you drive a buggy through rugged trails and unspoiled landscapes in Punta Cana. This off-road adventure takes you on a thrilling journey through the Dominican countryside, where you'll visit a hidden cenote and have the opportunity to take a refreshing swim in its crystal-clear waters. Continue your journey to the famous Macao Beach, known for its golden sands and spectacular ocean views. Whether you're a thrill-seeker or simply looking for a unique way to explore the area, this adventure promises excitement and unforgettable memories.",
     price: {
       adult: 65,
       child: 45
@@ -67,7 +71,8 @@ const tours = [
     tags: ["adventure", "off-road", "fun"],
     categories: ["adventure", "exploration"],
     time: "afternoon",
-    image: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1935&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1519021228607-ef6e4c22d821?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tour_itinerary: [
       "Pickup from hotel (1:30 PM)",
       "Drive to starting point (2:00 PM)",
@@ -88,7 +93,8 @@ const tours = [
   {
     id: 4,
     name: "Los Haitises National Park",
-    description: "Explore mangroves, caves with Taíno paintings, and stunning rock formations.",
+    description:
+      "Explore the natural beauty of Los Haitises National Park, a breathtaking haven of biodiversity and ecological treasures. Journey through mangrove forests by boat, navigating among limestone caves and unique rock formations. Discover ancient petroglyphs left by the indigenous Taino people, and observe an array of bird species that call the park home. This eco-tour combines history, culture, and untouched wilderness, making it a must for nature lovers and adventurers alike.",
     price: {
       adult: 99,
       child: 65
@@ -96,7 +102,8 @@ const tours = [
     tags: ["nature", "history", "boat"],
     categories: ["eco-tour", "culture"],
     time: "all_day",
-    image: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1935&auto=format&fit=crop",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661883801442-3fdb21a619f1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tour_itinerary: [
       "Pickup from hotel (6:30 AM)",
       "Drive to port (7:30 AM)",
@@ -117,7 +124,8 @@ const tours = [
   {
     id: 5,
     name: "Swim with Dolphins",
-    description: "Experience an interactive swim with dolphins and enjoy other marine life shows.",
+    description:
+      "Dive into a once-in-a-lifetime experience with the Swim with Dolphins tour, perfect for families and marine life enthusiasts. Begin your day with a detailed briefing to ensure safety and maximize your interaction time. Enjoy an interactive session with friendly dolphins, where you can touch, swim, and even receive a playful kiss from these intelligent creatures. The marine park also offers captivating live shows featuring other aquatic animals, making it a well-rounded adventure. Create unforgettable memories as you connect with the wonders of the sea in this morning excursion.",
     price: {
       adult: 120,
       child: 95
@@ -125,7 +133,8 @@ const tours = [
     tags: ["marine", "interactive", "family"],
     categories: ["adventure", "marine_life"],
     time: "morning",
-    image: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1935&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1491986542380-fdf7aebad979?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tour_itinerary: [
       "Pickup from hotel (9:00 AM)",
       "Arrival at marine park (9:30 AM)",
@@ -146,7 +155,8 @@ const tours = [
   {
     id: 6,
     name: "Altos de Chavón and Chavón River Cruise",
-    description: "Visit a Mediterranean-style village and enjoy a boat ride along the scenic Chavón River.",
+    description:
+      "Step back in time with a visit to the enchanting Altos de Chavón, a Mediterranean-inspired village perched above the scenic Chavón River. Wander cobblestone streets, explore art galleries, and discover cultural treasures in this historic and artistic gem. Following a delightful lunch overlooking the river, embark on a tranquil cruise along its serene waters. Revel in the lush, tropical scenery and learn about the region’s rich history. This all-day tour is a harmonious blend of culture, relaxation, and natural beauty.",
     price: {
       adult: 90,
       child: 65
@@ -175,7 +185,8 @@ const tours = [
   {
     id: 7,
     name: "Fishing Charter in Punta Cana",
-    description: "Enjoy a private fishing experience in the Caribbean waters.",
+    description:
+      "Set out on a thrilling private fishing adventure in the crystal-clear Caribbean waters of Punta Cana. Board a well-equipped fishing boat and head to prime spots known for their abundance of species like mahi-mahi, marlin, and tuna. Whether you’re an experienced angler or a novice, the expert crew will guide you through an unforgettable deep-sea fishing experience. Relax, soak up the sun, and enjoy the thrill of reeling in your catch while surrounded by breathtaking ocean views. This tour is a must for fishing enthusiasts seeking adventure and tranquility.",
     price: {
       adult: 150,
       child: null
