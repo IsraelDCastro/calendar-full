@@ -10,6 +10,9 @@ export default function Timeline({ itinerary }) {
           <p className="mb-0 font-cookie text-2xl leading-none text-white sm:text-4xl">{itinerary?.day}</p>
         </div>
         <div className="flex flex-1 flex-wrap gap-5 rounded-xl bg-gray-100 p-5 md:ml-6">
+          <div className="flex size-10 items-center justify-center rounded-full bg-primary-800 md:hidden">
+            <p className="mb-0 font-cookie text-xl leading-none text-white sm:text-2xl">{itinerary?.day}</p>
+          </div>
           {Array.isArray(itinerary?.tours) &&
             itinerary?.tours[0] &&
             itinerary?.tours.map((tour, index) => (

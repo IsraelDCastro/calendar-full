@@ -87,6 +87,14 @@ export default function ClientItinerary() {
         </Card>
       </section>
       <section className="mx-auto space-y-6 p-8 xl:w-10/12">
+        <div className="relative hidden flex-wrap gap-8 font-cookie text-2xl leading-none sm:text-5xl md:flex">
+          <div className="flex items-center justify-center">
+            <h4 className="font-[inherit] leading-none">Days</h4>
+          </div>
+          <div className="md:ml-6">
+            <h4 className="font-[inherit]">Let’s start</h4>
+          </div>
+        </div>
         {Array.isArray(itimeraries) &&
           itimeraries[0] &&
           itimeraries.map((itinerary, index) => <Timeline key={index} itinerary={itinerary} />)}
