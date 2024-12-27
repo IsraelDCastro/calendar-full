@@ -54,6 +54,42 @@ export default function Navbar() {
             Client itinerary
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/tiptap-editor"
+            className={({ isActive }) =>
+              `rounded-md px-4 py-2 text-sm font-semibold md:text-lg ${
+                isActive ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }`
+            }
+          >
+            Tiptap Editor
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/blog"
+            className={({ isActive }) =>
+              `rounded-md px-4 py-2 text-sm font-semibold md:text-lg ${
+                isActive ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }`
+            }
+          >
+            Blog
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/show-tour"
+            className={({ isActive }) =>
+              `rounded-md px-4 py-2 text-sm font-semibold md:text-lg ${
+                isActive ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }`
+            }
+          >
+          Show tour
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
